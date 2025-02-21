@@ -1,0 +1,157 @@
+/* Home Section Container */
+.first_container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(241, 239, 239);
+    color: white;
+    padding: 50px 20px;
+        animation: fadeIn 5s ease-in-out;
+
+  }
+  
+  /* Row Styling */
+  .first_row {
+ 
+    align-items: center;
+    justify-content:space-around;
+  }
+
+  
+  /* Name Highlight */
+  .intro_style_name {
+    color: blue;
+    font-size:50px !important;
+    animation: fadeIn 5s ease-in-out;
+
+    
+  }
+  .intro_hi{
+    font-size:50px;
+  }
+  
+  /* Heading Styling */
+ 
+  /* Button Styling */
+  .intro_column .btn-primary {
+    background-color: rgb(57, 57, 211);
+    border: none;
+    transition: 0.3s ease;
+  }
+  
+  .intro_column .btn-primary:hover {
+    background-color:blue;
+    transform: scale(1.2);
+  }
+  
+  /* Image Styling */
+  .intro_inner_pic {
+    border-radius:2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+  }
+  .intro__column_image{
+    margin-top:100px !important;
+  }
+  /* animation start from here */
+   /* Fade-In Animation */
+   @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Fade-In-Up Animation for Cards */
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  
+  /* Responsive Design */
+  @media (max-width: 1024px) {
+    .intro_style_name {
+        color: blue;
+        font-size:40px !important;
+      }
+      .intro_hi{
+        font-size:40px;
+      }
+  }
+  
+  
+  /* Tablets (768px and below) */
+  @media (max-width: 768px) {
+    .first_container {
+      height: auto;
+    }
+  
+    .first_row {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .intro_column {
+      text-align: center;
+      max-width: 100%;
+    }
+  
+    .intro_style_name {
+      font-size: 36px;
+    }
+  
+    .intro_column h1 {
+      font-size: 38px;
+    }
+  
+    .intro_inner_pic {
+      height: auto;
+      width:60%;
+      /* margin-top:20px; */
+    }
+  }
+  
+  /* Mobile Phones (480px and below) */
+  @media (max-width: 480px) {
+    .intro_column h1 {
+      font-size: 30px;
+    }
+  
+    .intro_style_name {
+      font-size: 30px;
+    }
+  
+    .intro_column .btn-primary {
+      font-size: 16px;
+    }
+  
+    .intro_inner_pic {
+      height: auto;
+      width: 80%;
+      margin-bottom:-20px;
+      margin-top: 0%;
+    }
+    .intro_style_name {
+        color: blue;
+        font-size:30px !important;
+      }
+      .intro_hi{
+        font-size:30px;
+      }
+      .intro__column_image{
+        margin-top: 20px !important;
+      }
+  }

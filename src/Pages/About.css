@@ -1,0 +1,85 @@
+.second_container {
+  /* padding: 10px; */
+  background-color: white;
+  /* height: 560px; */
+  animation: fadeIn 5s ease-in-out;
+
+
+}
+
+/* Row Styling */
+.second_row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* About Column */
+.about_column {
+  text-align: center;
+  max-width: 800px;
+  margin-bottom:50px;
+  
+}
+
+/* About Heading */
+.about_heading {
+  /* font-size:4px; */
+  font-weight: bold;
+  color: #333;
+  /* margin-bottom: 20px; */
+  margin-top: 68px;
+  animation: fadeIn 5s ease-in-out;
+
+}
+
+/* About Paragraph */
+.about_paragraph {
+  font-size: 18px;
+  color: #555;
+  line-height: 1.8;
+  text-align:left;
+  animation: fadeIn 5s ease-in-out;
+
+}
+   /* Fade-In Animation */
+   @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Fade-In-Up Animation for Cards */
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+
+/* Responsive Design */
+
+/* Tablets & Small Screens (768px and below) */
+@media (max-width:768px) {
+  .about_heading {
+    font-size:20px !important;
+    margin-top:70px;
+  }
+
+  .about_paragraph {
+    font-size: 12px;
+    line-height:2 ;
+ 
+  }
+}
+

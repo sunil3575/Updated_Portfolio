@@ -1,0 +1,9 @@
+[
+    {
+      
+        "name":"Paint Application",
+        "images":["project_pics/paint/paint_01.png","project_pics/paint/paint_02.png","project_pics/paint/paint_03.png","project_pics/paint/paint.png"],
+        "Detail":"we will be building a simple paint application that lets you draw just like in MS-Paint. Through this article, we will learn how to implement and work with canvas in React.js. Our app contains two sections, one for drawing and the other is a menu where the user can customize the brush color, width, and opacity. The user will be provided with a brush and draw on the canvas using that brush."
+  
+      }
+]

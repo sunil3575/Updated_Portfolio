@@ -1,0 +1,8 @@
+[
+    {
+        "name":"India Tourism Website",
+        "images":["project_pics/india_tourisum/tour_01.png","project_pics/india_tourisum/tour_02.png","project_pics/india_tourisum/tour_03.png","project_pics/india_tourisum/tour_04.png"],
+        "Detail":" Indian tourism app using React, featuring destination exploration, travel experiences, and a visually appealing image carousel. Users can interact with the app and contact through a form, highlighting the beauty of India."
+  
+    }
+]

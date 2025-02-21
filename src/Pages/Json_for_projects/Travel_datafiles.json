@@ -1,0 +1,7 @@
+[
+    {
+        "name":"Travel Blog Website",
+      "images":["project_pics/travel_project/travel-01.png","project_pics/travel_project/travel-02.png","project_pics/travel_project/travel-03.png","project_pics/travel_project/travel-04.png"],
+       "Detail":"Travel Blog Website using React JS is a better way to learn how to manage state, passing props and render data dynamically. In this article, we are going to learn how to create a Travel Blog Website using React JS. This website will have a list of places with images and description. The data is passed through the application with the help of JSON file. When you click on the location, it will redirect you to the google maps to see the complete description of that place."
+    }
+]

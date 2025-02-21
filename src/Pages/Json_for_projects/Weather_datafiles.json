@@ -1,0 +1,8 @@
+[
+    {
+    "name":"Weather Application",
+    "images":["project_pics/weather/weather_01.png","project_pics/weather/weather_02.png","project_pics/weather/weather_03.png","project_pics/weather/weather_04.png"],
+    "Detail":"we will develop an Interactive Weather Application using ReactJS Framework. The developed application will provide real-time weather information to the user for the city they have searched. If the user searches, for the wrong city, an Error message is also displayed to the user, stating that the searched city is not found. We have used OpenWeatherMap API which provides us with access to weather data from around the world. We have fetched the weather information for various locations, including wind speed and more."
+    
+}
+]

@@ -1,0 +1,38 @@
+.error_container{
+    font-family: sans-serif;
+}
+
+.display-4{
+    text-align: center;
+    margin-top:150px;
+    
+}
+.display-1{
+    color: red;
+}
+.error_col{
+    text-align: center;
+}
+.error_btn{
+background-color: blue;
+font-size: larger;
+border: 2px solid blue;
+}
+.error_btn:hover{
+    background-color: green;
+    border: 2px solid green;
+
+}
+
+@media (max-width:426px) {
+    .display-4{
+        font-size:medium;
+    }
+    .display-1{
+        font-size: x-large;
+    }
+    .error_btn{
+        font-size:8px;
+          
+    }
+}

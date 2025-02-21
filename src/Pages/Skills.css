@@ -1,0 +1,128 @@
+/* ====== Skills Section Styling ====== */
+.fourth_container {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: white;
+  animation: fadeIn 5s ease-in-out;
+
+}
+
+/* Heading Styling */
+.skills_heading {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom:20px;
+  margin-top: 15px;
+  animation: fadeIn 5s ease-in-out;
+
+}
+
+/* ====== Skills Section with CSS Grid ====== */
+.fourth_column {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Wider buttons for larger screens */
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px; /* Limit the max width for better alignment */
+  margin: 0 auto;
+}
+
+/* ====== Skill Buttons Styling ====== */
+.skills_btn {
+  background-color:rgb(154, 154, 216);
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  text-align: center;
+  transition: 0.3s ease-in-out;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 10px;
+  
+}
+
+.skills_btn:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+/* ====== Resume Section Styling ====== */
+.portfolio_resume {
+  text-align: center;
+  margin-top: 30px;
+}
+
+/* Resume Download Button */
+.about_resume {
+  display: inline-flex;  /* Enables Flexbox */
+  align-items: center;   /* Aligns icon & text */
+  justify-content: center; /* Centers content */
+  gap: 8px;  /* Adds spacing between icon & text */
+  background-color:rgb(167, 198, 167);
+  color: green;
+  padding: 12px 20px;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+}
+
+/* Resume Icon Styling */
+.about_resume svg {
+  font-size: 1.5rem;
+}
+
+.about_resume:hover {
+  background-color: #218838;
+  transform: scale(1.05);
+  color: white;
+}
+
+/* ====== Responsive Design ====== */
+@media (min-width: 720px) and (max-width: 2550px) {
+  .skills_heading {
+      font-size: 2.5rem;
+  }
+
+  .fourth_column {
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 20px; /* Increase gap for larger screens */
+  }
+
+  .skills_btn {
+      font-size: 1.1rem; /* Slightly larger buttons */
+      padding: 15px; /* Increase padding */
+  }
+
+  .about_resume {
+      font-size: 1.2rem; /* Larger font size for the resume button */
+      padding: 12px 25px; /* Adjust padding */
+  }
+}
+
+/* Adjustments for smaller screens */
+@media (max-width: 720px) {
+  .skills_heading {
+      font-size: 2rem;
+  }
+
+  .fourth_column {
+      grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+      gap: 10px;
+  }
+
+  .skills_btn {
+      font-size: 0.9rem;
+      padding: 10px;
+  }
+
+  .about_resume {
+      font-size: 1rem;
+      padding: 10px 15px;
+  }
+}

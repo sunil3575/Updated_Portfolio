@@ -1,0 +1,44 @@
+[
+    {
+        "image": "projects_info_pics/nilganga_oringinal.png",
+        "title":"Hydropower",
+        "description":"Nilganga Hydropower company is a private company involved in the development, operation, and management of hydropower projects in Nepal.",
+        "btn":"View in Details",
+        "link":"/hydropower"
+    },
+    {
+        "image":"projects_info_pics/weather_01.png",
+        "title":"Weather App",
+        "description":"Users can search for their city or any location to get current weather conditions, including temperature, humidity, wind speed, and weather description.",
+        "btn":"View in Details",
+         "link":"/weather"
+    },
+    {
+        "image":"projects_info_pics/my travell react app.png",
+        "title":"Travel website",
+        "description":"This website caters to diverse interests and preferences, making travel planning an enjoyable experiencen.",
+        "btn":"View in Details",
+         "link":"/travel"
+    },
+    {
+        "image":"projects_info_pics/paint.png",
+        "title":"Paint App",
+        "description":"The Paint App is a powerful yet accessible tool for anyone looking to explore their artistic side, from casual doodlers to serious artists.",
+        "btn":"View in Details",
+         "link":"/paint"
+    },
+    {
+        "image":"projects_info_pics/movie_trailor.png",
+        "title":"Search_Movie_Trailor App",
+        "description":"The Movie Trailer Search App is a sleek and intuitive platform that allows users to discover, watch, and share trailers of the movie.",
+        "btn":"View in Details",
+         "link":"/trailor"
+    },
+    {
+        "image":"projects_info_pics/tourisum.png",
+        "title":"India_Tourisum Website",
+        "description":"Designed for travelers seeking to explore this beautiful country, the website provides detailed information about various tourist destinations, activities, accommodations, and travel tips.",
+        "btn":"View in Details",
+         "link":"/india_tour"
+    }
+]
