@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
+=======
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+>>>>>>> ae31e81 (first commit)
 import Layout from './Pages/Layout';
 import Home from './Pages/Home';
 import About from './Pages/About';
@@ -20,8 +24,12 @@ import India_Tourisum from './Pages/Project_files/India_Tourisum';
 function App() {
   return (
     <>
+<<<<<<< HEAD
     <BrowserRouter>
    <AnimatePresence>
+=======
+    <Router>
+>>>>>>> ae31e81 (first commit)
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
@@ -40,8 +48,12 @@ function App() {
         </Route>
         <Route path="*" element={<Error/>}/>
       </Routes>
+<<<<<<< HEAD
       </AnimatePresence>
     </BrowserRouter>
+=======
+    </Router>
+>>>>>>> ae31e81 (first commit)
     
     </>
   

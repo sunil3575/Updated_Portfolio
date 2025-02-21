@@ -1,4 +1,8 @@
 {
+<<<<<<< HEAD
+=======
+  "homepage": "https://sunil3575.github.io/Updated_Portfolio",
+>>>>>>> ae31e81 (first commit)
   "name": "portfolio_remake",
   "version": "0.1.0",
   "private": true,
@@ -26,6 +30,11 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+<<<<<<< HEAD
+=======
+     "predeploy": "npm run build",
+     "deploy": "gh-pages -d build",
+>>>>>>> ae31e81 (first commit)
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -50,6 +59,11 @@
     ]
   },
   "devDependencies": {
+<<<<<<< HEAD
     "ajv": "^7.2.4"
+=======
+    "ajv": "^7.2.4",
+    "gh-pages": "^6.3.0"
+>>>>>>> ae31e81 (first commit)
   }
 }
